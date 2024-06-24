@@ -461,4 +461,24 @@ li a{
 		padding: 20px;
 		font-size: small;
 	}
+
+	.footer-section1 {
+		padding: 10px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer-section1 > div {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.footer-section2, .footer-section3 {
+		padding: 10px;
+		font-size: x-small;
+	}
+
+	.img-column img {
+		height: 80px;
+	}
 }
