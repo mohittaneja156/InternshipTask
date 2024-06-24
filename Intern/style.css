@@ -1,3 +1,5 @@
+/* Basic styles remain unchanged */
+
 body{
 	margin: 0px;
 	padding: 0px;
@@ -30,7 +32,6 @@ li a{
 .logo{
 	width: 100%;
 	height: 150px;
-	
 	background-color: #f7f7f7;
 	overflow: hidden;
 	align-items: center;
@@ -40,14 +41,12 @@ li a{
 	overflow: hidden;
 	height: 50%;
 	margin-top: 37.5px;
-	
 }
 .main1 img{
 	object-fit: contain;
 	height: 100%;
 	width: 100%;
 }
-
 
 .navbar2{
 	background-color: #f9fdfe;
@@ -58,7 +57,6 @@ li a{
 	color: black;
 }
 .img-container{
-	
 	width: 100%;
 	height: 450px;
 }
@@ -72,10 +70,10 @@ li a{
 .about{
 	padding: 70px 20px;
 	display: flex;
-	flex-direction:column;
+	flex-direction: column;
 	justify-content: center;
 } 
-.about h1,p{
+.about h1, p{
 	text-align: center;
 	margin: 0;
 	line-height: 40px;
@@ -90,11 +88,7 @@ li a{
 	border: none;
 	letter-spacing: 1px;
 	cursor: pointer;
-	
-	
 }
-
-
 
 .box{
 	height: 70%;
@@ -111,18 +105,17 @@ li a{
 	background-color: #f5f5f3;
 }
 .card .boxes {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 	margin: 20px;
 }
 .card .boxes .box {
-    max-width: calc(100% / 3 );
-    cursor: default;
+	max-width: calc(100% / 3 );
+	cursor: default;
 	position: relative;
 	text-align: center;
 	color: black;
 }
-
 .card-text {
 	position: absolute;
 	top: 50%;
@@ -131,7 +124,7 @@ li a{
 	background-color: white;
 	padding: 30px;
 	padding-top: 20px;
-	padding-bottom	: 20px;
+	padding-bottom: 20px;
 	font-weight: bolder;
 }
 
@@ -144,14 +137,12 @@ li a{
 	position: relative;
 	text-align: center;
 	height: 300px;
-	
 }
 .banner-container img{
 	object-fit: fill;
 	height: 100%;
 	width: 100%;
 	filter: grayscale(80%);
-
 }
 .banner-container .banner-text{
 	position: absolute;
@@ -163,7 +154,6 @@ li a{
 	font-weight: bolder;
 	border-color: #26333b;
 	box-shadow: 10px 10px 5px #26333b;
-	
 }
 
 .card2-content{
@@ -178,9 +168,7 @@ li a{
 	letter-spacing: 1px;
 	padding: 40px;
 	padding-bottom: 10px;
-	
 }
-
 .card2{
 	padding: 20px;
 	padding-bottom: 50px;
@@ -188,12 +176,12 @@ li a{
 	background-color: #f5f5f3;
 }
 .card2 .boxes2 {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 	margin: 20px;
 }
 .card2 .boxes2 .box2 {
-    max-width: calc(100% / 3 );
+	max-width: calc(100% / 3 );
 	width: 30%;
 	text-align: center;
 	color: black;
@@ -203,7 +191,6 @@ li a{
 	display: block;
 	height: 300px;
 	width: 100%;
-
 }
 .card2-text {
 	background-color: white;
@@ -213,19 +200,16 @@ li a{
 	letter-spacing: 1px;
 	font-size: x-small;
 	line-height: 150%;
-	
 }
 
-
-
 .footer {
-    position:static;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+	position: static;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 	height: 100px;
-    background-color: #26333b;
-    color: white;
+	background-color: #26333b;
+	color: white;
 	display: flex;
 	flex-direction: column;
 }
@@ -239,16 +223,14 @@ li a{
 	position: relative;
 	padding-bottom: 100px;
 }
-
 .footer-logo{
 	width: 100%;
 	justify-content: center;
 	align-items: center;
 }
-
 .footer-logo img{
 	padding: 5px;
-	height:70px;
+	height: 70px;
 	width: 300px;
 }
 .col1-text1{
@@ -258,7 +240,6 @@ li a{
 	word-spacing: 2px;
 	letter-spacing: 1px;
 	margin-top: 20px;
-	
 }
 .col1-text2{
 	font-size: small;
@@ -282,16 +263,11 @@ li a{
 	width: 30px;
 	background: transparent;
 	cursor: pointer;
-
-	
-
 }
 .socials button img{
 	height: 100%;
 	width: 100%;
-	
 }
-
 .col2-text1{
 	font-size: small;
 	text-align: center;
@@ -299,7 +275,6 @@ li a{
 	word-spacing: 2px;
 	letter-spacing: 1px;
 	margin-top: 20px;
-	
 }
 .col2-text2{
 	font-size: small;
@@ -310,7 +285,6 @@ li a{
 	margin-bottom: 20px;
 	line-height: 150%;
 }
-
 .col3-text1{
 	font-size: small;
 	text-align: center;
@@ -319,7 +293,6 @@ li a{
 	letter-spacing: 1px;
 	line-height: 140%;
 	margin-top: 20px;
-	
 }
 .col3-text2{
 	font-size: small;
@@ -338,13 +311,12 @@ li a{
 	background: transparent;
 	border: solid;
 	border-radius: 2px;
-	border-color: #26333b ;
+	border-color: #26333b;
 	padding: 7px;
 	letter-spacing: 2px;
 	font-weight: bolder;
 	font-size: x-small;
 }
-
 
 .footer-section2{
 	height: auto;
@@ -355,11 +327,9 @@ li a{
 	word-spacing: 3px;
 	letter-spacing: 2px;
 	padding: 20px;
-	font-size:xx-small;
-	font-weight:bold;
-
+	font-size: xx-small;
+	font-weight: bold;
 }
-
 .footer-section3{
 	height: auto;
 	background-color: e0e8eb;
@@ -368,48 +338,127 @@ li a{
 	position: relative;
 	padding-bottom: 10px;
 }
-
 .img-row {
 	display: flex;
-  }
+}
 .img-column {
 	flex: 33.33%;
 	object-fit: contain;
-	height:fit-content;
+	height: fit-content;
 	height: 100px;
-	
 }
 .img-column img{
 	width: 100%;
 	height: 100%;
 	filter: grayscale(50%);
-	
 }
-
-
 .footer-section4{
 	display: flex;
-    justify-content: center; 
-    align-items: center; 
-    position: relative;
+	justify-content: center;
+	align-items: center;
+	position: relative;
 	height: auto;
 	background-color: #26333b;
-    color: white;
+	color: white;
 	padding: 10px;
 }
 .right-text{
 	position: absolute;
-    right: 2%;
-    margin-right: 20px;
+	right: 2%;
+	margin-right: 20px;
 	font-size: xx-small;
-	font-weight: bold;	
+	font-weight: bold;
 }
 .center-text{
 	flex: 1;
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 	font-size: xx-small;
 	font-weight: bold;
 }
 
+@media (max-width: 768px) {
+	ul li {
+		width: auto;
+		display: block;
+		text-align: center;
+	}
 
+	.navbar2 {
+		text-align: center;
+	}
+
+	.card .boxes, .card2 .boxes2 {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.card .boxes .box, .card2 .boxes2 .box2 {
+		width: 90%;
+		margin-bottom: 20px;
+	}
+
+	.banner-container {
+		height: auto;
+		padding: 20px;
+	}
+
+	.footer-section1 {
+		flex-direction: column;
+		align-items: center;
+		padding: 20px;
+	}
+
+	.footer-section1 > div {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.img-row {
+		flex-direction: column;
+	}
+
+	.img-column {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 480px) {
+	.navbar2 {
+		padding: 5px;
+	}
+
+	.img-container {
+		height: 300px;
+	}
+
+	.about {
+		padding: 30px 10px;
+	}
+
+	.about h1, .about p {
+		line-height: 30px;
+		font-size: small;
+	}
+
+	.about button {
+		width: 60px;
+		padding: 5px;
+	}
+
+	.banner-container {
+		padding: 10px;
+	}
+
+	.banner-container .banner-text {
+		padding: 10px 20px;
+		font-size: small;
+	}
+
+	.card-text {
+		padding: 20px;
+		font-size: small;
+	}
+}
