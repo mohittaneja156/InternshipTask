@@ -376,12 +376,12 @@ li a{
 	font-size: xx-small;
 	font-weight: bold;
 }
-
 @media (max-width: 768px) {
 	ul li {
 		width: auto;
 		display: block;
 		text-align: center;
+        padding-bottom: 5px;
 	}
 
 	.navbar2 {
@@ -395,6 +395,7 @@ li a{
 
 	.card .boxes .box, .card2 .boxes2 .box2 {
 		width: 90%;
+
 		margin-bottom: 20px;
 	}
 
@@ -415,14 +416,6 @@ li a{
 		margin-bottom: 20px;
 	}
 
-	.img-row {
-		flex-direction: column;
-	}
-
-	.img-column {
-		width: 100%;
-		margin-bottom: 10px;
-	}
 }
 
 @media (max-width: 480px) {
